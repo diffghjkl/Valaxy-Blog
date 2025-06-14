@@ -20,6 +20,9 @@ importers:
       valaxy-addon-hitokoto:
         specifier: ^0.0.1
         version: 0.0.1
+      valaxy-addon-twikoo:
+        specifier: ^0.0.3
+        version: 0.0.3(valaxy@0.22.17(@babel/parser@7.27.0)(@nuxt/kit@3.16.1)(@types/markdown-it@14.1.2)(@types/node@22.13.14)(@vue/compiler-dom@3.5.13)(axios@1.8.4)(eslint@9.23.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.38.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))
       valaxy-addon-waline:
         specifier: ^0.2.0
         version: 0.2.0(typescript@5.8.2)(valaxy@0.22.17(@babel/parser@7.27.0)(@nuxt/kit@3.16.1)(@types/markdown-it@14.1.2)(@types/node@22.13.14)(@vue/compiler-dom@3.5.13)(axios@1.8.4)(eslint@9.23.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.38.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))
@@ -3371,6 +3374,11 @@ packages:
 
   valaxy-addon-hitokoto@0.0.1:
     resolution: {integrity: sha512-N+1dl3gwxeoTraT+r7gvNfTUHIjapBNHXj/urILdKQFfji++s7ELqeCNoyyOLUpvLJJOPSfObkJ9MKDsfCm8FA==}
+
+  valaxy-addon-twikoo@0.0.3:
+    resolution: {integrity: sha512-8ISPqSF3uto8jCceaDuGzeq1utJuH3oJ3mqtz9h1lQhXkP3jwReh8Sa3bnfhHlcfCUCoNK2E5dj8CNK2tVgHpg==}
+    peerDependencies:
+      valaxy: latest
 
   valaxy-addon-waline@0.2.0:
     resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
@@ -7391,6 +7399,10 @@ snapshots:
   valaxy-addon-face@0.2.0: {}
 
   valaxy-addon-hitokoto@0.0.1: {}
+
+  valaxy-addon-twikoo@0.0.3(valaxy@0.22.17(@babel/parser@7.27.0)(@nuxt/kit@3.16.1)(@types/markdown-it@14.1.2)(@types/node@22.13.14)(@vue/compiler-dom@3.5.13)(axios@1.8.4)(eslint@9.23.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.38.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)):
+    dependencies:
+      valaxy: 0.22.17(@babel/parser@7.27.0)(@nuxt/kit@3.16.1)(@types/markdown-it@14.1.2)(@types/node@22.13.14)(@vue/compiler-dom@3.5.13)(axios@1.8.4)(eslint@9.23.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.38.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
 
   valaxy-addon-waline@0.2.0(typescript@5.8.2)(valaxy@0.22.17(@babel/parser@7.27.0)(@nuxt/kit@3.16.1)(@types/markdown-it@14.1.2)(@types/node@22.13.14)(@vue/compiler-dom@3.5.13)(axios@1.8.4)(eslint@9.23.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.38.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)):
     dependencies:
