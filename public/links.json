@@ -22,5 +22,13 @@
         "blog": "禾守の储物间",
         "desc": "资源下载站",
         "color": "#0078e7"
+    },
+    {
+        "url": "https://ymblog.eu.org/",
+        "avatar": "https://ymblog.eu.org/_astro/demo-avatar.BCPqs8MM_244NCv.webp",
+        "name": "泡桐",
+        "blog": "桐の小窝",
+        "desc": "梓桐花幕碧云浮",
+        "color": "#BC98F9"
     }
   ]
