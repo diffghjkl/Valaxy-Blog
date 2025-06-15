@@ -13,7 +13,7 @@ nav: false
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="https://cdn.yunyoujun.cn/img/avatar/none.jpg" />
 
-## 申请
+## 申请友链
 > 目前仅收录合法网站（具体范围视实际情况而定）
 
 欢迎各位的申请~

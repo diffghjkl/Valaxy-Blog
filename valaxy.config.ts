@@ -56,7 +56,8 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'hotpink',
       },
     ],
-
+  
+  // 页脚部分
     footer: {
       since: 2022,
       icon: {
