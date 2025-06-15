@@ -8,6 +8,7 @@ tags:
  - Hexo教程
  - Hexo搭建
  - Windows
+excerpt: 一个由Node.js驱动的博客框架
 ---
 ## 前言
 由于经济上的原因，博主便开始用上了Hexo

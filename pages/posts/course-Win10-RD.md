@@ -6,11 +6,13 @@ tags:
  - Windows
  - Windows10
  - Windows11
+excerpt_type: html
 ---
-## 前言 
 因为一些原因，我觉得我需要记录下...
 
- Win10 & Win11 在部分功能命名上有些区别，请自行判断！
+Win10 & Win11 在部分功能命名上有些区别，请自行判断！
+
+<!-- more -->
 
 
 

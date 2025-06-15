@@ -4,6 +4,9 @@ keywords: 链接
 description: 友情链接
 links: /links.json
 random: true
+toc: false
+aside: false
+nav: false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="https://cdn.yunyoujun.cn/img/avatar/none.jpg" />

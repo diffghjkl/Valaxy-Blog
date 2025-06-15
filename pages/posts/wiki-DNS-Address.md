@@ -7,6 +7,7 @@ tags:
  - 全球DNS服务
  - 国内DNS服务
  - 海外DNS服务
+excerpt_type: html
 ---
 （内容来自互联网，排版不易，如有不妥之处还请指出！）
 
@@ -15,6 +16,8 @@ tags:
 可能会用到的：[国内目前可用的DoH（2024-8-19） - 偷来的才是宝贝](https://coding.gs/2024/06/09/available-doh/)
 
 Tips：标题中未标注 IPv4/IPv6 的为未考证（即暂无相关资料核实）
+
+<!-- more -->
 
 
 

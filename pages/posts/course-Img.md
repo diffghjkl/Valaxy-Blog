@@ -8,10 +8,13 @@ tags:
  - jsdelivr
  - PicGo
  - GitHub
+excerpt_type: html
 ---
-## 前言
+::: tip
 截止至2022/05/25，国内仅部分地区可正常访问 jsdelivr 
+:::
 
+<!-- more -->
 
 之前写博客的时候发现个问题：
 

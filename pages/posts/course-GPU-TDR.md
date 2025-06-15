@@ -7,14 +7,15 @@ tags:
  - GPU
  - WDDM
  - WDDM TDR
+excerpt_type: html
 ---
-
-## 前言
 近期在尝试使用 `Stable Diffusion` 进行AI绘画，
 
 但由于运行环境的 显卡性能不足 & TDR ，造成图片无法生成...
 
 > 本文中提到的TDR为 `WDDM`（全称 `Windows Display Driver Model` ，即 `Windows显示驱动程序模型` ） 下的功能
+
+<!-- more -->
 
 
 

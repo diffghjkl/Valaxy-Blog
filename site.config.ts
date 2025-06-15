@@ -98,6 +98,14 @@ export default defineSiteConfig({
       ignoreLocation: true,
     },
   },
+
+  encrypt: {
+    // 页面/文章加密，默认关闭
+    enable: true
+    // algorithm
+    // iv
+    // salt
+  },
   statistics: {
     enable: true,
     readTime: {

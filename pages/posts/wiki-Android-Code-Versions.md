@@ -6,14 +6,15 @@ tags:
  - Android
  - Android 版本号
  - Android API
+excerpt_type: html
 ---
-
-## 前言
  > 本文内容来自 [代号、标记和 build 号 - Android Open Source Project](https://source.android.com/docs/setup/about/build-numbers?hl=zh-cn#platform-code-names-versions-api-levels-and-ndk-releases) 
 
 因为众所周知的原因， Google 的一些网站无法在大陆访问...
 
 为便于日常查找，将部分内容存档于此
+
+<!-- more -->
 
 正文开始~
 

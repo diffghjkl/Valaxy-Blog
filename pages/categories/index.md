@@ -1,9 +1,9 @@
 ---
 layout: categories
+title: 分类
+icon: i-ri-folder-2-line
 nav: false
 toc: false
-icon: i-ri-folder-2-line
-# You can custom title
-# title: 云游的小分类
-# comment: false
+aside: false
+comment: false
 ---

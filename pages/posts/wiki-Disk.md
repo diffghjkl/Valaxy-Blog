@@ -8,11 +8,15 @@ tags:
  - SSD
  - HDD
  - HHD
+excerpt_type: html
 ---
 ## 前言
 本文搁置中...
 
 目前无法确保文章内容的准确性！
+
+<!-- more -->
+
 
 
 ## 正文

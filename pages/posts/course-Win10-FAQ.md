@@ -6,13 +6,15 @@ tags:
  - Windows
  - Win10
  - Windows10
+excerpt_type: html
 ---
-## 前言
 > 本篇内容目前以 Windows10 为例，Windows 11可能会存在部分内容有所差距，请根据实际情况为准！
 
 在日常使用/折腾电脑的过程中，Windows总是会出现各种各样的问题...
 
 所以我打算将我遇到的一些问题汇集到本篇文章，便于日后查阅~
+
+<!-- more -->
 
 
 
