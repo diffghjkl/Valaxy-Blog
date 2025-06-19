@@ -86,11 +86,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       locale: {
         placeholder: "烦请友善交流~",
       },
-      reaction: [],
-      comment: true, // 评论数统计
+      reaction: [], // 是否开启反应（留空即可）
       pageview: true, // 浏览量统计
-      highlighter: true,
-      texRenderer: true,
+      comment: true, // 评论数统计
+      highlighter: true, // 代码高亮
+      texRenderer: true, // 自定义数学公式处理方法，用于预览
       emoji: [
         '//unpkg.com/@waline/emojis@1.2.0/bilibili',
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',

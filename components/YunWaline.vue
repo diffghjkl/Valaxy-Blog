@@ -5,9 +5,14 @@ import type { WalineInitOptions } from '@waline/client'
 
 const customOptions: WalineInitOptions = {
   serverURL: 'https://bpl.dmoe.top',
+  locale: {
+        placeholder: "烦请友善交流~\n需使用超过128KB的图片时请自行使用图床", // 评论输入框内提示词（使用\n即可换行）
+      },
+  reaction: [], // 是否开启反应（留空即可）
   pageview: true, // 浏览量统计
   comment: true, // 评论数统计
-  reaction: false, // 是否开启反应
+  highlighter: true, // 代码高亮
+  texRenderer: true, // 自定义数学公式处理方法，用于预览
   emoji: [
         '//unpkg.com/@waline/emojis@1.2.0/bilibili',
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',
