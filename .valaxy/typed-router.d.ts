@@ -39,6 +39,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/course-MCBE-Sever': RouteRecordInfo<'/posts/course-MCBE-Sever', '/posts/course-MCBE-Sever', Record<never, never>, Record<never, never>>,
     '/posts/course-MCBE-Sever-1': RouteRecordInfo<'/posts/course-MCBE-Sever-1', '/posts/course-MCBE-Sever-1', Record<never, never>, Record<never, never>>,
     '/posts/course-MCBE-Sever-2': RouteRecordInfo<'/posts/course-MCBE-Sever-2', '/posts/course-MCBE-Sever-2', Record<never, never>, Record<never, never>>,
+    '/posts/course-MuMu': RouteRecordInfo<'/posts/course-MuMu', '/posts/course-MuMu', Record<never, never>, Record<never, never>>,
     '/posts/course-onecloud-armbian': RouteRecordInfo<'/posts/course-onecloud-armbian', '/posts/course-onecloud-armbian', Record<never, never>, Record<never, never>>,
     '/posts/course-onecloud-LANraragi': RouteRecordInfo<'/posts/course-onecloud-LANraragi', '/posts/course-onecloud-LANraragi', Record<never, never>, Record<never, never>>,
     '/posts/course-OPPO-A83': RouteRecordInfo<'/posts/course-OPPO-A83', '/posts/course-OPPO-A83', Record<never, never>, Record<never, never>>,
