@@ -8,7 +8,7 @@ tags:
  - 软件优化
 excerpt_type: html
 ---
-近几年一直在使用MuMu模拟器，但到近期我才开始研究该如何优化它（  
+近几年一直在使用MuMu模拟器，但直到近期我才开始研究该如何优化它（  
 
 若存在问题，可在评论区指出~
 
@@ -65,7 +65,7 @@ Tab栏选择 MuMu模拟器根目录下 `.\nx_device\12.0\vms\MuMuPlayer-12.0-bas
 > 注意：方法一、二可在 `新建虚拟机` 时生效，方法三仅在 `当前虚拟机` 内生效  
 #### 方法一
 编辑 `逻辑分区` 中的 `build.prop` 文件，在文件末尾新增一行：  
-```Code
+```File-build.prop
 ro.build.version.overseas=true
 ```  
 > 即设置为海外版(无桌面/搜索栏的广告)  
@@ -90,7 +90,7 @@ ro.build.version.overseas=true
 ##### (选择2)修改系统构建属性(build.prop)
 获取Root权限后，编辑 `/system/build.prop` 文件  
 在文件末尾新增一行：  
-```Code
+```File-build.prop
 ro.build.version.overseas=true
 ```   
 > 即设置为海外版(无桌面/搜索栏的广告)  
