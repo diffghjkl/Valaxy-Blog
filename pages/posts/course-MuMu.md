@@ -8,11 +8,17 @@ tags:
  - 软件优化
 excerpt_type: html
 ---
+> 本教程仅作记录，你不需要亲自尝试其中的每一个操作。如果你不知道自己在做什么，那就不要做。  
+::: danger
+若阅读本文并执行相关操作后出现设备损坏、隐私泄露、数据丢失等情况，则机主需要自行承担损失。
+:::
+
 近几年一直在使用MuMu模拟器，但直到近期我才开始研究该如何优化它（  
 
 若存在问题，可在评论区指出~
 
 <!-- more -->
+
 
 
 
@@ -57,8 +63,9 @@ excerpt_type: html
 
 ### 屏蔽模拟器内的桌面广告
 > Tips:  
-> 1.修改 `system.vdi` 文件会在 `新建虚拟机` 时生效  
-> 2.ROOT后修改 `build.prop` 文件仅在 `当前虚拟机` 内生效  
+> 1.修改 `system.vdi` 文件会在 `新建虚拟机` 时生效（一般来说，这也会在 `当前虚拟机` 内生效 ）  
+> 2.通过 `ROOT` 权限修改将仅在 `当前虚拟机` 内生效  
+> 3.需获取ROOT权限时，可考虑使用 `Kitsune Mask`  
 
 #### V5及以上版本
 ##### 方法一
@@ -89,11 +96,21 @@ Tab栏选择 MuMu模拟器根目录下 `.\vms\MuMuPlayer-12.0-base\system.vdi` �
 并替换 `逻辑分区`-`priv-app/com.mumu.launcher_new` 文件夹的 `com.mumu.launcher_new.apk` 文件  
  
 ##### 方法二
+> 推荐使用 [MT文件管理器](https://mt2.cn/)  
+
 在虚拟机的设备设置中启用 `ROOT` & `可写系统盘`  
 获取Root权限后，进入 `/system/priv-app` 文件夹  
 将 [Mumu Launcher(Nebula版桌面)](https://diffghjkl.lanzouq.com/iHt2T346y95c) 名称更改为 `com.mumu.launcher_new.apk`   
-并替换 `/system/priv-app/com.mumu.launcher_new` 文件夹中的 `com.mumu.launcher_new.apk` 文件   
+并替换 `/system/priv-app/com.mumu.launcher_new` 文件夹中的 `com.mumu.launcher_new.apk` 文件  
+> 或者使用 `授权ROOT权限后的MT文件管理器` 直接安装 `替换的apk`  
 
+然后删除原桌面APP的数据，即可实现替换操作  
+若操作后不生效（如提示桌面已停止运行），请通过ADB执行下方命令：  
+> MuMu模拟器V5以下版本的ADB连接地址为 `127.0.0.1:7555`  
+```Shell
+adb install -r -d "替换的桌面apk所在路径\com.mumu.launcher_new.apk"
+```
+> 或者直接在 `授权ROOT权限后的MT文件管理器` 中再次执行 `替换的apk` 安装操作  
 
 
 
@@ -111,4 +128,7 @@ Tab栏选择 MuMu模拟器根目录下 `.\vms\MuMuPlayer-12.0-base\system.vdi` �
 
 
 ## 后记
-虽然耗时有点长，但我觉得这就是在水文章（
+~~虽然耗时有点长，但我觉得这就是在水文章（~~  
+
+2025/08/23补：修正了部分存在错误的内容  
+> 同时我要收回之前水文章的话...为了保证内容正确，耗费的时间更长了啊啊啊——  
