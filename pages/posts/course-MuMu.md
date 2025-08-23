@@ -44,6 +44,12 @@ excerpt_type: html
 ## 开始
 > 本篇内容以MuMu模拟器V5.0及以上版本为例，V5以下版本请查看 `Tips` 的补充部分  
 
+### 屏蔽自动更新
+删除 MuMu模拟器根目录下 `.\nx_device\` 的 `MuMuNxUpdater.exe` 文件，并使用同名的空文件替换  
+> Tips：  
+> 1.也可在 `MuMuNxUpdater.exe` 文件后添加 `.bak` 后缀（日后程序是否会自行恢复暂且未知）  
+> 2.V5以下版本请将上方路径中的 `\nx_device\` 修改为 `\shell\` ，并且要修改的文件应是 `MuMuPlayerUpdater.exe`  
+
 ### 屏蔽开屏广告&消息中心
 在 `Windows资源管理器` 的地址栏中输入 `%APPDATA%\Netease\MuMuPlayer\data` 并回车  
 > Tips:  
