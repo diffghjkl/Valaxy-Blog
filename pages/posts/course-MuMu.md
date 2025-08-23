@@ -103,6 +103,7 @@ ro.build.version.overseas=true
 ## 参考资料
 - [MuMu12开屏广告与桌面广告的简单解决办法 - Bilibili](https://www.bilibili.com/opus/830791956620640309)
 - [MuMu模拟器12精简优化系统去广告及修改WebView实现 - 潘钜森 - 博客园](https://www.cnblogs.com/geoisam/p/18808872)
+- [【汇总】mumu模拟器历史版本 下载器、安装包历史版本官方下载 - 悟透的杂货铺 - 博客园](https://www.cnblogs.com/wutou/p/18165628)
 
 
 
