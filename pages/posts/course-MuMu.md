@@ -22,8 +22,8 @@ excerpt_type: html
 ## 准备
 - [MuMu模拟器安装包](https://mumu.163.com/)（若已安装，请根据您的实际情况酌情卸载）  
 > Tips:  
-> 1.MuMu模拟器V5前的最后一个版本为 `V4.1.31.3724` ：https://mumu.nie.netease.com/api/v1/release/downloader/NEMUX?channel=V4.1.31.3724  
-> 2.MuMu模拟器国际版：https://www.mumuplayer.com/
+> 1.MuMu模拟器(国内版)V5前的最后一个版本应该是 `V4.1.33(3741)` ：https://mumu.nie.netease.com/api/v1/release/downloader/NEMUX?channel=V4.1.33.3741  
+> 2.国际版-MuMu模拟器(MuMuPlayer)：https://www.mumuplayer.com/
 
 - [DiskGenius专业版](https://diffghjkl.lanzouq.com/ih6NA346yf8b)（可选）   
 > 推荐使用V6版本，V5版本似乎打不开 `system.vdi` 文件  
@@ -56,44 +56,44 @@ excerpt_type: html
 
 
 ### 屏蔽模拟器内的桌面广告
+> Tips:  
+> 1.修改 `system.vdi` 文件会在 `新建虚拟机` 时生效  
+> 2.ROOT后修改 `build.prop` 文件仅在 `当前虚拟机` 内生效  
+
+#### V5及以上版本
+##### 方法一
 在 `DiskGenius`(专业版) 内点击 `磁盘`-`打开虚拟磁盘文件`  
-
 Tab栏选择 MuMu模拟器根目录下 `.\nx_device\12.0\vms\MuMuPlayer-12.0-base` 的 `system.vdi` 文件   
-> V5以下版本请选择 `.\vms\MuMuPlayer-12.0-base\system.vdi` 
-
-
-> 注意：方法一、二可在 `新建虚拟机` 时生效，方法三仅在 `当前虚拟机` 内生效  
-#### 方法一
 编辑 `逻辑分区` 中的 `build.prop` 文件，在文件末尾新增一行：  
 ```File-build.prop
 ro.build.version.overseas=true
 ```  
-> 即设置为海外版(无桌面/搜索栏的广告)  
+> 即设置为海外版(无桌面/搜索栏的广告) 
 
-
-#### 方法二（仅适用于V5以下版本）
-> V5使用该方法似乎只能屏蔽搜索框广告~~（所以这部分就没写V5的教程） ~~
-
-将 [Mumu Launcher(Nebula版桌面)](https://diffghjkl.lanzouq.com/iHt2T346y95c) 名称更改为 `com.mumu.launcher_new.apk`   
-并替换 `逻辑分区`-`priv-app/com.mumu.launcher_new` 文件夹的 `com.mumu.launcher_new.apk` 文件  
-
-
-#### 方法三
+##### 方法二
 在虚拟机的设备设置中启用 `ROOT` & `可写系统盘`  
-
-> 下方选项任选其一即可  
-##### (选择1)替换桌面apk（仅适用于V5以下版本）
-获取Root权限后，进入 `/system/priv-app` 文件夹  
-将 [Mumu Launcher(Nebula版桌面)](https://diffghjkl.lanzouq.com/iHt2T346y95c) 名称更改为 `com.mumu.launcher_new.apk`   
-并替换 `/system/priv-app/com.mumu.launcher_new` 文件夹中的 `com.mumu.launcher_new.apk` 文件   
-
-##### (选择2)修改系统构建属性(build.prop)
 获取Root权限后，编辑 `/system/build.prop` 文件  
 在文件末尾新增一行：  
 ```File-build.prop
 ro.build.version.overseas=true
 ```   
 > 即设置为海外版(无桌面/搜索栏的广告)  
+
+
+#### V5以下版本
+> V5替换桌面APK似乎只能屏蔽搜索框广告（所以V5部分就没写这个）  
+##### 方法一
+在 `DiskGenius`(专业版) 内点击 `磁盘`-`打开虚拟磁盘文件`  
+Tab栏选择 MuMu模拟器根目录下 `.\vms\MuMuPlayer-12.0-base\system.vdi` 的 `system.vdi` 文件   
+将 [Mumu Launcher(Nebula版桌面)](https://diffghjkl.lanzouq.com/iHt2T346y95c) 名称更改为 `com.mumu.launcher_new.apk`   
+并替换 `逻辑分区`-`priv-app/com.mumu.launcher_new` 文件夹的 `com.mumu.launcher_new.apk` 文件  
+ 
+##### 方法二
+在虚拟机的设备设置中启用 `ROOT` & `可写系统盘`  
+获取Root权限后，进入 `/system/priv-app` 文件夹  
+将 [Mumu Launcher(Nebula版桌面)](https://diffghjkl.lanzouq.com/iHt2T346y95c) 名称更改为 `com.mumu.launcher_new.apk`   
+并替换 `/system/priv-app/com.mumu.launcher_new` 文件夹中的 `com.mumu.launcher_new.apk` 文件   
+
 
 
 
