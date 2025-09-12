@@ -9,16 +9,16 @@ aside: true
 nav: false
 ---
 > 下方链接随机排序，不分先后顺序.  
-> 若需要更改信息，请在下方评论区留言~
+> 若需要更改信息，请在下方评论区留言~  
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="https://cdn.yunyoujun.cn/img/avatar/none.jpg" />
 
 ## 申请友链
-> 目前仅收录合法网站（具体范围视实际情况而定）
+> 目前仅收录合法网站（具体范围视实际情况而定）  
 
-欢迎各位的申请~
+欢迎各位的申请~  
 
-请确保贵站已添加本站链接，再以如下格式在评论区留言：
+请确保贵站已添加本站链接，再以如下格式在评论区留言：  
 ```txt
 "url": "网站链接",
 "avatar": "网站logo",
@@ -28,7 +28,7 @@ nav: false
 "color": "你的网站主色调（十六进制代码；若不填，将使用随机颜色）"
 ```
 
-本站的信息（以上方模板为例）：
+本站的信息（以上方模板为例）：  
 ```txt
 "url": "https://blog.dmoe.top",
 "avatar": "https://sway-cdn.com/s/wl1r2oqIuZtCtQbJ/images/9ecO8UCSDAkWDf",
@@ -45,6 +45,6 @@ nav: false
 
 
 ## 失联名单
-> 以下是出现无法访问的网站（包括但不限于域名过期、运营商拦截、服务器故障）
+> 以下是出现无法访问的网站（包括但不限于域名过期、运营商拦截、服务器故障）  
 
-目前这里没有什么呢...
+目前这里什么都没有呢...

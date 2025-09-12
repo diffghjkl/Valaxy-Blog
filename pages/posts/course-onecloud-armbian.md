@@ -271,7 +271,7 @@ Tracker介绍：https://github.com/XIU2/TrackersListCollection/blob/master/READM
 
 
 ### LANraragi搭建
-详见 [论如何利用LANraragi+玩客云建立个人漫画库(1Panel+Linux)](https://blog.dmoe.top/2025/01/15/course-onecloud-LANraragi/)
+详见 [论如何利用LANraragi+玩客云建立个人漫画库(1Panel+Linux)](https://blog.dmoe.top/posts/course-onecloud-LANraragi)
 
 
 

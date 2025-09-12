@@ -36,6 +36,8 @@ export default defineValaxyConfig<UserThemeConfig>({
         api: "https://v1.hitokoto.cn/?c=a&c=b&c=c",
       },
     },
+
+    // 在首页的社交导航栏下方显示的内容
     pages: [
       {
         name: '追番列表',
@@ -56,6 +58,30 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'hotpink',
       },
     ],
+
+   // 位于页面顶部的导航栏
+    nav: [
+      {
+        text: '博客文章',
+        link: '/posts/',
+        icon: 'i-ri-article-line',
+      },
+      {
+        text: '追番列表',
+        link: '/bangumi/',
+        icon: 'i-ri-movie-line',
+      },
+      {
+        text: '友人帐',
+        link: '/links/',
+        icon: 'i-ri-links-line',
+      },
+      {
+        text: '喜欢的女孩子',
+        link: '/girls/',
+        icon: 'i-ri-heart-2-line',
+      },
+  ],
   
   // 页脚部分
     footer: {
