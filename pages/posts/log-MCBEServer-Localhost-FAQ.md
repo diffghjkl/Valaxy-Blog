@@ -38,7 +38,7 @@ tags:
 然后 以管理员的身份 运行CMD
 
 输入
-```Command
+```
 CheckNetIsolation.exe loopbackexempt -a -p=
 ```
 

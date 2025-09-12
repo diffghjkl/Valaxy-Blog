@@ -28,6 +28,16 @@ nav: false
 "color": "你的网站主色调（十六进制代码；若不填，将使用随机颜色）"
 ```
 
+本站的信息（以上方模板为例）：
+```txt
+"url": "https://blog.dmoe.top",
+"avatar": "https://sway-cdn.com/s/wl1r2oqIuZtCtQbJ/images/9ecO8UCSDAkWDf",
+"name": "禾守",
+"blog": "禾守の小站",
+"desc": "这里是一只萌新的博客~"
+"color": "#009AFF"
+```
+
 ::: warning
 如果您在未告知本站时撤销我方的友情链接，本站也将撤销您的网站链接!
 :::
