@@ -23,7 +23,7 @@ excerpt: 一个开源的漫画管理系统
 
 （~~废话~~部分结束，以下是正文内容）
 
-> 如果您需要 `玩客云刷机教程` ，请前往 [论玩客云(onecloud)如何刷入Armbian&安装Docker/1Panel](https://blog.dmoe.top/2024/07/22/course-onecloud-armbian/)
+> 如果您需要 `玩客云刷机教程` ，请前往 [论玩客云(onecloud)如何刷入Armbian&安装Docker/1Panel](https://blog.dmoe.top/posts/course-onecloud-armbian)
 
 
 
