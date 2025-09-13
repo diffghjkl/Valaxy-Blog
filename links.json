@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://blog.wututu.cn",
+        "avatar": "https://weavatar.com/avatar/122cd122653bebac2a16997f398a7e91",
+        "name": "wututu",
+        "blog": "wututuのblog",
+        "desc": "wututu的博客,各种干货分享的博客",
+        "color": "#FFD700"
+    },
+    {
+        "url": "https://drive.wtt.ink",
+        "avatar": "https://fcdn.liy.ink:666/u/wuhu/img/ico1.webp",
+        "name": "wututu",
+        "blog": "兔Drive",
+        "desc": "wututuの储藏间",
+        "color": "#5696aa"
+    },
+    {
+        "url": "https://alist.dmoe.top/",
+        "avatar": "https://sway-cdn.com/s/IZUxUVefJot0zasp/images/BxTkkrikqIYgiP",
+        "name": "禾守",
+        "blog": "禾守の储物间",
+        "desc": "资源下载站",
+        "color": "#0078e7"
+    },
+    {
+        "url": "https://blog.cx330t.online",
+        "avatar": "https://blog.cx330t.online/favicon/Cx330t.png",
+        "name": "泡桐",
+        "blog": "桐の小窝",
+        "desc": "梓桐花幕碧云浮",
+        "color": "#BC98F9"
+    },
+    {
+        "url": "https://程星.top",
+        "avatar": "https://程星.top/upload/favicon.ico",
+        "name": "程星",
+        "blog": "程星博客",
+        "desc": "一份专注于BA二创的个人创作平台",
+        "color": "#8D64FF"
+    }
+  ]
