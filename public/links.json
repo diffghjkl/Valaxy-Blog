@@ -30,5 +30,13 @@
         "blog": "桐の小窝",
         "desc": "梓桐花幕碧云浮",
         "color": "#BC98F9"
+    },
+    {
+        "url": "https://程星.top",
+        "avatar": "https://程星.top/upload/favicon.ico",
+        "name": "程星",
+        "blog": "程星博客",
+        "desc": "一份专注于BA二创的个人创作平台",
+        "color": "#8D64FF"
     }
   ]
