@@ -38,5 +38,13 @@
         "blog": "程星博客",
         "desc": "一份专注于BA二创的个人创作平台",
         "color": "#8D64FF"
+    },
+    {
+        "url": "https://cafe.omoi.fun/",
+        "avatar": "https://cafe.omoi.fun/usr/uploads/2025/09/3262907601.jpg",
+        "name": "Marticlex",
+        "blog": "酩酊街",
+        "desc": "Cheerful. Colorful.",
+        "color": "#0077FF"
     }
   ]
