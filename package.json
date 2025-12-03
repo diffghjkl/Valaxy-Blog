@@ -12,13 +12,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.26.6",
+    "valaxy": "0.26.10",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-face": "^0.2.0",
     "valaxy-addon-hitokoto": "^0.0.1",
     "valaxy-addon-twikoo": "^0.0.3",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "0.26.6",
+    "valaxy-theme-yun": "0.26.10",
     "vitepress-plugin-group-icons": "^1.6.3"
   },
   "devDependencies": {

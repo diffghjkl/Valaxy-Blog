@@ -46,5 +46,21 @@
         "blog": "酩酊街",
         "desc": "要撕裂这个世界吗？",
         "color": "#0077FF"
+    },
+    {
+        "url": "https://candinya.com/",
+        "avatar": "https://candinya.com/images/candinya.webp",
+        "name": "Nya Candy",
+        "blog": "糖菓·部落",
+        "desc": "Never drown the flame of hope",
+        "color": "#62b6e7"
+    },
+    {
+        "url": "https://www.996icu.eu.org/",
+        "avatar": "https://img.scdn.io/i/692d847f79589_1764590719.webp",
+        "name": "CCCC4444",
+        "blog": "Nebula Blog",
+        "desc": "Nebula.SYS",
+        "color": "#F0F000"
     }
   ]
