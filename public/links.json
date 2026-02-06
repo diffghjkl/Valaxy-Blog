@@ -62,5 +62,13 @@
         "blog": "Nebula Blog",
         "desc": "Nebula.SYS",
         "color": "#F0F000"
+    },
+    {
+        "url": "https://blog.leostam.top/",
+        "avatar": "https://esaimg.cdn1.vip/i/696b780ade3cc_1768650762.webp",
+        "name": "Leostam",
+        "blog": "Leostamの客栈",
+        "desc": "这是一只水瓶座的小萌新~",
+        "color": "#FF887A"
     }
   ]
