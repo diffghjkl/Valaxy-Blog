@@ -205,6 +205,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/course-Scrcpy': RouteRecordInfo<
+      '/posts/course-Scrcpy',
+      '/posts/course-Scrcpy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/course-SM-T311': RouteRecordInfo<
       '/posts/course-SM-T311',
       '/posts/course-SM-T311',
@@ -462,6 +469,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/course-OPPO-A83.md': {
       routes:
         | '/posts/course-OPPO-A83'
+      views:
+        | never
+    }
+    'pages/posts/course-Scrcpy.md': {
+      routes:
+        | '/posts/course-Scrcpy'
       views:
         | never
     }
