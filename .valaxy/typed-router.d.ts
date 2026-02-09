@@ -184,6 +184,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/course-OECT-armbian-jellyfin': RouteRecordInfo<
+      '/posts/course-OECT-armbian-jellyfin',
+      '/posts/course-OECT-armbian-jellyfin',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/course-onecloud-armbian': RouteRecordInfo<
       '/posts/course-onecloud-armbian',
       '/posts/course-onecloud-armbian',
@@ -451,6 +458,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/course-OECT-armbian.md': {
       routes:
         | '/posts/course-OECT-armbian'
+      views:
+        | never
+    }
+    'pages/posts/course-OECT-armbian-jellyfin.md': {
+      routes:
+        | '/posts/course-OECT-armbian-jellyfin'
       views:
         | never
     }

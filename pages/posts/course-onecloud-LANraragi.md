@@ -31,9 +31,9 @@ excerpt: 一个开源的漫画管理系统
 
 
 ## 准备
-- 一台可运行Linux系统的计算机（玩客云,群辉什么的也是可以的）
-- LANraragi镜像
-- SSH客户端 + 浏览器~~（这条好像没什么用）~~
+- 一台可运行Linux系统的计算机（玩客云,群辉什么的也是可以的）  
+- LANraragi的Docker镜像  
+- SSH客户端 + 浏览器~~（这条好像没什么用）~~  
 
 
 
@@ -44,34 +44,19 @@ excerpt: 一个开源的漫画管理系统
 > 本篇教程以 `玩客云利用1Panel安装LANraragi` 为例
 
 ### 安装 1Panel
-您也可以在 [1Panel官网](https://1panel.cn/) 获取安装方法
+> Tips：
+> 1.支持 `CentOS` 、 `Ubuntu` 、 `Debian` 等主流发行版，及 `麒麟` 、 `统信` 等国产操作系统  
+> 2.支持 `x86_64` 、 `aarch64` 、 `armv7l` 、 `ppc64le` 、 `s390x` 架构  
+您也可以在 [1Panel官网](https://1panel.cn/) 获取安装方法  
 
-以下是一键安装指令：
-::: code-group   
-```Shell [RedHat / CentOS]
-curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sh quick_start.sh
+以下是一键安装指令：  
+```Shell
+bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)"
 ```
-
-```Shell [Ubuntu]
-curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh
-```
-
-```Shell [Debian]
-curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh
-```
-
-```Shell [openEuler / 其他]
- # 第一步：安装 docker
-bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
-
- # 第二步：安装 1Panel
-curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sh quick_start.sh
-```
-:::
 
 > Tips:   
 > 1.上期教程中玩客云刷入的Armbian基于Debian  
-> 2.更多内容请见 [1Panel文档](https://1panel.cn/docs/installation/online_installation/)
+> 2.更多内容请见 [1Panel文档](https://1panel.cn/docs/installation/online_installation/)  
 
 
 
