@@ -142,6 +142,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/course-HW-ROM-U-D-Proxy': RouteRecordInfo<
+      '/posts/course-HW-ROM-U-D-Proxy',
+      '/posts/course-HW-ROM-U-D-Proxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/course-Img': RouteRecordInfo<
       '/posts/course-Img',
       '/posts/course-Img',
@@ -422,6 +429,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/course-Hexo.md': {
       routes:
         | '/posts/course-Hexo'
+      views:
+        | never
+    }
+    'pages/posts/course-HW-ROM-U-D-Proxy.md': {
+      routes:
+        | '/posts/course-HW-ROM-U-D-Proxy'
       views:
         | never
     }
