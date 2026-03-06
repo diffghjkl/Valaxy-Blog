@@ -6,7 +6,7 @@ import type { WalineInitOptions } from '@waline/client'
 const customOptions: WalineInitOptions = {
   serverURL: 'https://bpl.dmoe.top',
   locale: {
-        placeholder: "请问您今天要来评论一下嘛?\n交流时还请您保持友善~\n（若要使用超过128KB的图片，需自行上传到第三方图床）", // 评论输入框内提示词（使用\n即可换行）
+        placeholder: "请问您今天要来评论一下嘛?\n交流时还请您保持友善态度~\n（评论支持使用Markdown语法；图片建议自行上传到第三方图床，目前仅支持使用不超过128KB的图片）", // 评论输入框内提示词（使用\n即可换行）
       },
   reaction: [], // 是否开启反应（留空即可）
   pageview: true, // 浏览量统计
