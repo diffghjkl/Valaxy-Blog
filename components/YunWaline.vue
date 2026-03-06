@@ -14,7 +14,6 @@ const customOptions: WalineInitOptions = {
   highlighter: true, // 代码高亮
   texRenderer: true, // 自定义数学公式处理方法，用于预览
   emoji: [
-        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',
         '//unpkg.com/@waline/emojis@1.2.0/tieba',
         '//unpkg.com/@waline/emojis@1.2.0/qq',

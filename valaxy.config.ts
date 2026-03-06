@@ -1,5 +1,5 @@
-import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig } from 'valaxy'
+import type { UserThemeConfig } from 'valaxy-theme-yun';
+import { defineValaxyConfig } from 'valaxy';
 import { addonWaline } from "valaxy-addon-waline";
 import { addonBangumi } from 'valaxy-addon-bangumi';
 import { addonFace } from 'valaxy-addon-face'
@@ -105,24 +105,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true
     },
   },
-  // 设置 valaxy-addon-waline 配置项
+  // 设置 valaxy-addon-waline 配置项（详细配置请前往'./components/YunWaline.vue'，二者存在的重复项请不要删除）
   addons: [
     addonWaline({
       serverURL: 'https://bpl.dmoe.top/',
-      locale: {
-        placeholder: "烦请友善交流~",
-      },
-      reaction: [], // 是否开启反应（留空即可）
       pageview: true, // 浏览量统计
       comment: true, // 评论数统计
-      highlighter: true, // 代码高亮
-      texRenderer: true, // 自定义数学公式处理方法，用于预览
-      emoji: [
-        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
-        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-        '//unpkg.com/@waline/emojis@1.2.0/tieba',
-        '//unpkg.com/@waline/emojis@1.2.0/qq',
-      ],
     }),
     // 追番
     addonBangumi({
