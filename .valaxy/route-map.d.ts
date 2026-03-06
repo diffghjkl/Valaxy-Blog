@@ -68,6 +68,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/bangumi/': RouteRecordInfo<
+      '/bangumi/',
+      '/bangumi',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/categories/': RouteRecordInfo<
       '/categories/',
       '/categories',
@@ -75,9 +82,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/girls/': RouteRecordInfo<
+      '/girls/',
+      '/girls',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/message_board/': RouteRecordInfo<
+      '/message_board/',
+      '/message_board',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -96,9 +117,205 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/course-CloudDisk': RouteRecordInfo<
+      '/posts/course-CloudDisk',
+      '/posts/course-CloudDisk',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-Frp': RouteRecordInfo<
+      '/posts/course-Frp',
+      '/posts/course-Frp',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-GPU-TDR': RouteRecordInfo<
+      '/posts/course-GPU-TDR',
+      '/posts/course-GPU-TDR',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-Hexo': RouteRecordInfo<
+      '/posts/course-Hexo',
+      '/posts/course-Hexo',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-HW-ROM-U-D-Proxy': RouteRecordInfo<
+      '/posts/course-HW-ROM-U-D-Proxy',
+      '/posts/course-HW-ROM-U-D-Proxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-Img': RouteRecordInfo<
+      '/posts/course-Img',
+      '/posts/course-Img',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-MCBE-Sever': RouteRecordInfo<
+      '/posts/course-MCBE-Sever',
+      '/posts/course-MCBE-Sever',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-MCBE-Sever-1': RouteRecordInfo<
+      '/posts/course-MCBE-Sever-1',
+      '/posts/course-MCBE-Sever-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-MCBE-Sever-2': RouteRecordInfo<
+      '/posts/course-MCBE-Sever-2',
+      '/posts/course-MCBE-Sever-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-MuMu': RouteRecordInfo<
+      '/posts/course-MuMu',
+      '/posts/course-MuMu',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-OECT-armbian': RouteRecordInfo<
+      '/posts/course-OECT-armbian',
+      '/posts/course-OECT-armbian',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-OECT-armbian-jellyfin': RouteRecordInfo<
+      '/posts/course-OECT-armbian-jellyfin',
+      '/posts/course-OECT-armbian-jellyfin',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-onecloud-armbian': RouteRecordInfo<
+      '/posts/course-onecloud-armbian',
+      '/posts/course-onecloud-armbian',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-onecloud-LANraragi': RouteRecordInfo<
+      '/posts/course-onecloud-LANraragi',
+      '/posts/course-onecloud-LANraragi',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-OPPO-A83': RouteRecordInfo<
+      '/posts/course-OPPO-A83',
+      '/posts/course-OPPO-A83',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-Scrcpy': RouteRecordInfo<
+      '/posts/course-Scrcpy',
+      '/posts/course-Scrcpy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-SM-T311': RouteRecordInfo<
+      '/posts/course-SM-T311',
+      '/posts/course-SM-T311',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-Win10-FAQ': RouteRecordInfo<
+      '/posts/course-Win10-FAQ',
+      '/posts/course-Win10-FAQ',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/course-Win10-RD': RouteRecordInfo<
+      '/posts/course-Win10-RD',
+      '/posts/course-Win10-RD',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/log-MCBEServer-Localhost-FAQ': RouteRecordInfo<
+      '/posts/log-MCBEServer-Localhost-FAQ',
+      '/posts/log-MCBEServer-Localhost-FAQ',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/log-OPPO-A83-ROM': RouteRecordInfo<
+      '/posts/log-OPPO-A83-ROM',
+      '/posts/log-OPPO-A83-ROM',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/resource-Domain-Tool': RouteRecordInfo<
+      '/posts/resource-Domain-Tool',
+      '/posts/resource-Domain-Tool',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/resource-Free-Email': RouteRecordInfo<
+      '/posts/resource-Free-Email',
+      '/posts/resource-Free-Email',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wiki-Android-Code-Versions': RouteRecordInfo<
+      '/posts/wiki-Android-Code-Versions',
+      '/posts/wiki-Android-Code-Versions',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wiki-Android-Mode': RouteRecordInfo<
+      '/posts/wiki-Android-Mode',
+      '/posts/wiki-Android-Mode',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wiki-Disk': RouteRecordInfo<
+      '/posts/wiki-Disk',
+      '/posts/wiki-Disk',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wiki-DNS-Address': RouteRecordInfo<
+      '/posts/wiki-DNS-Address',
+      '/posts/wiki-DNS-Address',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wiki-Screen': RouteRecordInfo<
+      '/posts/wiki-Screen',
+      '/posts/wiki-Screen',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -159,15 +376,33 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/bangumi/index.md': {
+      routes:
+        | '/bangumi/'
+      views:
+        | never
+    }
     'pages/categories/index.md': {
       routes:
         | '/categories/'
       views:
         | never
     }
+    'pages/girls/index.md': {
+      routes:
+        | '/girls/'
+      views:
+        | never
+    }
     'pages/links/index.md': {
       routes:
         | '/links/'
+      views:
+        | never
+    }
+    'pages/message_board/index.md': {
+      routes:
+        | '/message_board/'
       views:
         | never
     }
@@ -183,9 +418,177 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/course-CloudDisk.md': {
+      routes:
+        | '/posts/course-CloudDisk'
+      views:
+        | never
+    }
+    'pages/posts/course-Frp.md': {
+      routes:
+        | '/posts/course-Frp'
+      views:
+        | never
+    }
+    'pages/posts/course-GPU-TDR.md': {
+      routes:
+        | '/posts/course-GPU-TDR'
+      views:
+        | never
+    }
+    'pages/posts/course-Hexo.md': {
+      routes:
+        | '/posts/course-Hexo'
+      views:
+        | never
+    }
+    'pages/posts/course-HW-ROM-U-D-Proxy.md': {
+      routes:
+        | '/posts/course-HW-ROM-U-D-Proxy'
+      views:
+        | never
+    }
+    'pages/posts/course-Img.md': {
+      routes:
+        | '/posts/course-Img'
+      views:
+        | never
+    }
+    'pages/posts/course-MCBE-Sever.md': {
+      routes:
+        | '/posts/course-MCBE-Sever'
+      views:
+        | never
+    }
+    'pages/posts/course-MCBE-Sever-1.md': {
+      routes:
+        | '/posts/course-MCBE-Sever-1'
+      views:
+        | never
+    }
+    'pages/posts/course-MCBE-Sever-2.md': {
+      routes:
+        | '/posts/course-MCBE-Sever-2'
+      views:
+        | never
+    }
+    'pages/posts/course-MuMu.md': {
+      routes:
+        | '/posts/course-MuMu'
+      views:
+        | never
+    }
+    'pages/posts/course-OECT-armbian.md': {
+      routes:
+        | '/posts/course-OECT-armbian'
+      views:
+        | never
+    }
+    'pages/posts/course-OECT-armbian-jellyfin.md': {
+      routes:
+        | '/posts/course-OECT-armbian-jellyfin'
+      views:
+        | never
+    }
+    'pages/posts/course-onecloud-armbian.md': {
+      routes:
+        | '/posts/course-onecloud-armbian'
+      views:
+        | never
+    }
+    'pages/posts/course-onecloud-LANraragi.md': {
+      routes:
+        | '/posts/course-onecloud-LANraragi'
+      views:
+        | never
+    }
+    'pages/posts/course-OPPO-A83.md': {
+      routes:
+        | '/posts/course-OPPO-A83'
+      views:
+        | never
+    }
+    'pages/posts/course-Scrcpy.md': {
+      routes:
+        | '/posts/course-Scrcpy'
+      views:
+        | never
+    }
+    'pages/posts/course-SM-T311.md': {
+      routes:
+        | '/posts/course-SM-T311'
+      views:
+        | never
+    }
+    'pages/posts/course-Win10-FAQ.md': {
+      routes:
+        | '/posts/course-Win10-FAQ'
+      views:
+        | never
+    }
+    'pages/posts/course-Win10-RD.md': {
+      routes:
+        | '/posts/course-Win10-RD'
+      views:
+        | never
+    }
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
+      views:
+        | never
+    }
+    'pages/posts/log-MCBEServer-Localhost-FAQ.md': {
+      routes:
+        | '/posts/log-MCBEServer-Localhost-FAQ'
+      views:
+        | never
+    }
+    'pages/posts/log-OPPO-A83-ROM.md': {
+      routes:
+        | '/posts/log-OPPO-A83-ROM'
+      views:
+        | never
+    }
+    'pages/posts/resource-Domain-Tool.md': {
+      routes:
+        | '/posts/resource-Domain-Tool'
+      views:
+        | never
+    }
+    'pages/posts/resource-Free-Email.md': {
+      routes:
+        | '/posts/resource-Free-Email'
+      views:
+        | never
+    }
+    'pages/posts/wiki-Android-Code-Versions.md': {
+      routes:
+        | '/posts/wiki-Android-Code-Versions'
+      views:
+        | never
+    }
+    'pages/posts/wiki-Android-Mode.md': {
+      routes:
+        | '/posts/wiki-Android-Mode'
+      views:
+        | never
+    }
+    'pages/posts/wiki-Disk.md': {
+      routes:
+        | '/posts/wiki-Disk'
+      views:
+        | never
+    }
+    'pages/posts/wiki-DNS-Address.md': {
+      routes:
+        | '/posts/wiki-DNS-Address'
+      views:
+        | never
+    }
+    'pages/posts/wiki-Screen.md': {
+      routes:
+        | '/posts/wiki-Screen'
       views:
         | never
     }

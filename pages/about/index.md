@@ -1,15 +1,21 @@
 ---
-title: 关于我
+title: 关于博主
+toc: false
+aside: false
+nav: false
+comment: false
 ---
 
-I am developing [Valaxy](https://github.com/YunYouJun/valaxy) - Next Generation Static Blog Framework.
+目前是一名学生.  
 
-If you like it, you can sponsor me in [GitHub](https://github.com/sponsors/YunYouJun) or [www.yunyoujun.cn/sponsors/](https://www.yunyoujun.cn/sponsors/).
+喜欢 `计算机` & `ACGN` 领域的内容~  
+
+今后还请多指教！  
+
+如果您需要联系我，请将邮件发送至 `hs@dmoe.top` .  
 
 ---
 
-我正在开发 [Valaxy](https://github.com/YunYouJun/valaxy) - 下一代静态博客框架。
+本站信息请见 [关于博客](/about/site/) .  
 
-如果你喜欢它，你可以在 [GitHub](https://github.com/sponsors/YunYouJun) 或 [www.yunyoujun.cn/sponsors/](https://www.yunyoujun.cn/sponsors/) 赞助我。
-
-Check out the [Valaxy | GitHub](https://github.com/YunYouJun/valaxy) for more details.
+如果您需要留言，请前往 [留言板](/message_board/) .  
