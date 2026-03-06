@@ -93,10 +93,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       beian: {
         enable: true,
         icp: '萌ICP备20210730号',
+        icpLink: 'https://icp.gov.moe/?keyword=20210730',
         police: '',
       },
     },
   },
+  unocss: { safelist },
   siteConfig: {
     // 是否启用评论
     comment: {
