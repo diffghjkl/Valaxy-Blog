@@ -3,7 +3,6 @@ import { useScriptTag } from '@vueuse/core'
 import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 
 useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
-useScriptTag('//sdk.51.la/js-sdk-pro.min.js?id=L9Tx1ikCmYvVv59d&ck=L9Tx1ikCmYvVv59d&autoTrack=true&hashMode=true')
 
 </script>
 
