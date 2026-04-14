@@ -99,24 +99,6 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
 
-  // Vite 插件配置（用于扩展构建流程，如注入第三方脚本、处理资源等）
-  vite: {
-    plugins: [
-      {
-        name: 'inject-51la-async', // 插件名称（用于调试和错误追踪）
-        transformIndexHtml(html: string) {
-          const laAsyncScript = `
-<!-- 51.LA 统计代码开始 -->
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=L9Tx1ikCmYvVv59d&ck=L9Tx1ikCmYvVv59d&autoTrack=true&hashMode=true"></script>
-<!-- 51.LA 统计代码结束 -->
-`
-          // 插入到 </head> 之前
-          return html.replace('</head>', `${laAsyncScript}</head>`)
-        },
-      },
-    ],
-  },
-
   unocss: { safelist },
   siteConfig: {
     // 是否启用评论
