@@ -1,0 +1,1 @@
+import{Y as e}from"./theme.D-vaAqpc.js";var t=e({defaults:{"@type":`PostalAddress`}});export{t as addressResolver};
