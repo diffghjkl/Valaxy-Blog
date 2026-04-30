@@ -17,7 +17,7 @@ tags:
 
 
 ## 前言
-继 [记一次失败的刷机经历](https://blog.dmoe.top/2024/02/23/log-OPPO-A83-ROM/) ，再次尝试 `OPPO A83` 这一机型
+继 [记一次失败的刷机经历](https://blog.dmoe.top/posts/log-OPPO-A83-ROM) ，再次尝试 `OPPO A83` 这一机型
 
 本文可能会更新，请以最新版为准
 
@@ -83,7 +83,7 @@ tags:
 
 然后对设备进行短接
 
-（详见 [救砖](https://blog.dmoe.top/2025/03/06/course-OPPOA83/#%E6%95%91%E7%A0%96) 部分）
+（详见 [救砖](https://blog.dmoe.top/posts/course-OPPO-A83/#%E6%95%91%E7%A0%96) 部分）
 
 最后在 `MediaTek SP Flash Tool` 中点击 `下载` 进行刷入即可
 

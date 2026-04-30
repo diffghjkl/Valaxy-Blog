@@ -17,7 +17,7 @@ tags:
 
 
 ## 前言
-> 已更新该设备的教程，请见 [OPPO A83 救砖&降级](https://blog.dmoe.top/2025/03/06/course-OPPOA83/)
+> 已更新该设备的教程，请见 [OPPO A83 救砖&降级](https://blog.dmoe.top/posts/course-OPPO-A83)
 
 ~~经过生活的摧残~~，决定做些其他的事情放松心情
 
