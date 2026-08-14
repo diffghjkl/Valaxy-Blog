@@ -46,5 +46,13 @@
         "blog": "Leostamの客栈",
         "desc": "这是一只水瓶座的小萌新~",
         "color": "#FF887A"
+    },
+    {
+        "url": "https://music.duzui.space/music/",
+        "avatar": "http://q.qlogo.cn/headimg_dl?dst_uin=2909895803&spec=640&img_type=jpg",
+        "name": "独醉",
+        "blog": "独醉の音乐站",
+        "desc": "全网音乐播放",
+        "color": "#4BFF4B"
     }
   ]
