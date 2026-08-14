@@ -118,7 +118,7 @@ excerpt_type: html
 
 ### 刷入 ROM
 运行 `HiSuite` ，根据软件提示连接设备  
-通过右上角的 `三` 中找到 `设置(Setting)` ，在 `常规设置` - `代理设置` - `代理地址` 中 填入 `127.0.0.1` ，端口 填入 `7777` （即在 `HiSuite Proxy` 中看到的 `Proxy Details` 中的信息）  
+通过右上角的 `三` 找到 `设置(Setting)` ，在 `常规设置` - `代理设置` - `代理地址` 中 填入 `127.0.0.1` ，端口 填入 `7777` （即在 `HiSuite Proxy` 中看到的 `Proxy Details` 中的信息）  
 点击 `Update（系统更新）` ，检查弹出的窗口中显示的系统是否正确  
 ![HiSuite_OVE](https://sway-cdn.com/s/4aEiTpcBD4PPvwex/images/wi4OE7iQgE1Bes)
 
