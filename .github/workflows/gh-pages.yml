@@ -29,10 +29,10 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: 📦 Install Dependencies
-        run: npm install -g pnpm && pnpm install
+        run: npm install -g pnpm@10.7.0 && pnpm install
 
       - name: 🌌 Build Valaxy Blog
-        run: pnpm build
+        run: npm run build
 
       - name: 🪤 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
