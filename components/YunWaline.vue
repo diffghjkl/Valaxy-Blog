@@ -6,7 +6,7 @@ import type { WalineInitOptions } from '@waline/client'
 const customOptions: WalineInitOptions = {
   serverURL: 'https://bpl.dmoe.top',
   locale: {
-        placeholder: "请问您今天要来评论一下嘛?交流时还请您保持友善态度~\n（评论支持Markdown语法；图片请自行上传到第三方图床；填写邮箱将在收到回复时发送邮件提醒）", // 评论输入框内提示词（使用\n即可换行）
+        placeholder: "请问您今天要来评论一下嘛?交流时还请您保持友善态度~\n（评论支持Markdown语法；图片请自行上传到第三方图床；填写邮箱地址将在收到评论回复时收到邮件提醒）", // 评论输入框内提示词（使用\n即可换行）
       },
   reaction: [], // 是否开启反应（留空即可）
   pageview: true, // 浏览量统计
