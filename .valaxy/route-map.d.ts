@@ -164,13 +164,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/course-MCBE-Sever': RouteRecordInfo<
-      '/posts/course-MCBE-Sever',
-      '/posts/course-MCBE-Sever',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/course-MCBE-Sever-1': RouteRecordInfo<
       '/posts/course-MCBE-Sever-1',
       '/posts/course-MCBE-Sever-1',
@@ -485,14 +478,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/course-Img.md': {
       routes:
         | '/posts/course-Img'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/course-MCBE-Sever.md': {
-      routes:
-        | '/posts/course-MCBE-Sever'
       views:
         | never
       pathParamNames:
