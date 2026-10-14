@@ -136,9 +136,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/course-GMS': RouteRecordInfo<
-      '/posts/course-GMS',
-      '/posts/course-GMS',
+    '/posts/course-GMS-Android': RouteRecordInfo<
+      '/posts/course-GMS-Android',
+      '/posts/course-GMS-Android',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -458,9 +458,9 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/course-GMS.md': {
+    'pages/posts/course-GMS-Android.md': {
       routes:
-        | '/posts/course-GMS'
+        | '/posts/course-GMS-Android'
       views:
         | never
       pathParamNames:
