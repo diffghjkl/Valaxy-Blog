@@ -136,6 +136,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/course-GMS': RouteRecordInfo<
+      '/posts/course-GMS',
+      '/posts/course-GMS',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/course-GPU-TDR': RouteRecordInfo<
       '/posts/course-GPU-TDR',
       '/posts/course-GPU-TDR',
@@ -446,6 +453,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/course-Frp.md': {
       routes:
         | '/posts/course-Frp'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/course-GMS.md': {
+      routes:
+        | '/posts/course-GMS'
       views:
         | never
       pathParamNames:
