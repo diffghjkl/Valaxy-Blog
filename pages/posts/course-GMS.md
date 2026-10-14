@@ -47,11 +47,12 @@ excerpt_type: html
 > 一般来说，这类设备GMS支持的功能相对齐全  
 
 此类设备通常默认关闭GMS服务，需用户手动开启，部分设备需要自行安装 `Google Play 商店`   
+
 以 `小米手机` 为例：  
 1. 打开 `设置` ，搜索 `谷歌` ，启用 `谷歌基础服务`  
 2. 在 `应用商店` 中安装 `Google Play 商店`  
 
-> 在设备中开启GMS服务后，需要另行安装 `Google Play 商店` 的，可参考下面的 [#方式一]()
+> 在设备中开启GMS服务后，需要另行安装 `Google Play 商店` 的，可参考下面的 [#方法一](https://blog.dmoe.top/posts/course-GMS#%E6%96%B9%E6%B3%95%E4%B8%80-%E8%87%AA%E8%A1%8C%E5%AE%89%E8%A3%85gms)
 
 
 
@@ -62,6 +63,7 @@ excerpt_type: html
 > 1.本方法适用于早期设备（大致在2021年前发布的?），部分华为/荣耀机型不支持本方法  
 > 2.`手动安装` 不保证GMS可用/支持服务齐全  
 > 3.可先尝试使用 `第三方安装器` ，同样不保证GMS可用/支持服务齐全  
+
 您可以自行选择以下任一方法：  
 
 ##### (1)自动安装（使用第三方安装器）
@@ -75,7 +77,7 @@ excerpt_type: html
 
 ##### (2)手动安装
 > 下载apk时请根据设备的 `Android版本` & `架构` 来选择  
-###### 1.安装 Google 服务框架（Google Services Framework）
+###### 1.Google 服务框架（Google Services Framework）
 - [APKMirror](https://www.apkmirror.com/apk/google-inc/google-services-framework/)  
 - [APKPure](https://apkpure.com/cn/google-services-framework/com.google.android.gsf)  
 
@@ -83,7 +85,7 @@ excerpt_type: html
 - [APKMirror](https://www.apkmirror.com/apk/google-inc/google-play-services/)  
 - [APKPure](https://apkpure.com/cn/google-play-services-app/com.google.android.gms)  
 
-######  3.安装Google Play 商店（Google Play Store）
+###### 3.Google Play 商店（Google Play Store）
 - [APKMirror](https://www.apkmirror.com/apk/google-inc/google-play-store/)  
 - [APKPure](https://apkpure.com/cn/google-play-store-2025/com.android.vending)  
 
@@ -98,9 +100,11 @@ excerpt_type: html
 > 3.检测设备是否支持签名伪造，可使用 [Lanchon/sigspoof-checker - Github](https://github.com/Lanchon/sigspoof-checker/releases)  
 
 > 以下是官方的一些链接：  
-> 1.[MicroG官网](https://microg.org/)（现已指向 https://github.com/microg/GmsCore/wiki/ ）  
-> 2.官方安装文档：[Installation · microg/GmsCore Wiki - Github](https://github.com/microg/GmsCore/wiki/Installation)  
+> - [MicroG官网](https://microg.org/)（现已指向 https://github.com/microg/GmsCore/wiki/ ）  
+> - 官方安装文档：[Installation · microg/GmsCore Wiki - Github](https://github.com/microg/GmsCore/wiki/Installation)  
 
+
+##### 安装 MicroG
 请按需安装以下软件：  
 > 详见官方下载页：[Downloads · microg/GmsCore Wiki - Github](https://github.com/microg/GmsCore/wiki/Downloads)  
 - [microG Services - Github](https://github.com/microg/GmsCore/releases/) (GmsCore) 必装  
@@ -117,6 +121,7 @@ excerpt_type: html
 
 #### 方法三：虚拟机/沙盒
 > 本方法受限于需安装 `第三方软件` ，支持的GMS服务可能较为齐全  
+
 以下是几种常见的软件：  
 - [VMOS](https://www.vmos.cn/)  
 - [光速虚拟机](https://gsxnj.cn/)  
@@ -128,9 +133,9 @@ excerpt_type: html
 
 
 #### 方法四：谷歌服务助手（仅支持华为/荣耀部分机型）
-> Tips：
+> Tips：  
 > 1.本部分为华为/荣耀的部分机型专属，理论上支持 `MagicUI` & `HarmonyOS2.0~4.3` 系统（不保证华为/荣耀平板通用）  
-> 2.具体是否支持请根据以下内容，请执行到 [#安装谷歌服务助手]() 部分来验证  
+> 2.具体是否支持请根据以下内容，请执行到 [#安装谷歌服务助手](https://blog.dmoe.top/posts/course-GMS#_1-%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%9C%8D%E5%8A%A1%E5%8A%A9%E6%89%8B) 部分来验证  
 
 本方法所需文件下载：  
 - [123云盘](https://1812317555.share.123pan.cn/123pan/BOa8Vv-tep39?pwd=Z1gc)（提取码：Z1gc）  
@@ -159,12 +164,12 @@ excerpt_type: html
 
 
 ##### 1.安装谷歌服务助手
-首先，将压缩包中的 `Backup` 文件夹解压到手机根目录下的 `Huawei` 文件夹中  
-其次，通过 `设置` - `系统和更新` - `日期和时间` 修改时间为 `2019年` （需关闭 `自动设置` ）  
-然后，在 `设置` - `系统和更新` - `备份与恢复` 右上角选择 `从内部存储恢复` ，选择刚才导入的备份，密码为 `a12345678`  
+将压缩包中的 `Backup` 文件夹解压到手机根目录下的 `Huawei` 文件夹中  
+通过 `设置` - `系统和更新` - `日期和时间` 修改时间为 `2019年` （需关闭 `自动设置` ）  
+在 `设置` - `系统和更新` - `备份与恢复` 右上角选择 `从内部存储恢复` ，选择刚才导入的备份，密码为 `a12345678`  
 > 若不存在 `从内部存储恢复` ，则需点击 `外部存储` ，应用会弹出申请权限的提示，一并允许后退出 `备份与恢复` ，然后重新打开它即可  
 
-最后，将系统时间的 `自动设置` 开启，打开 `谷歌服务助手` 并点击 `激活` 即可（申请的权限要全部允许；激活后不要点击开始下载，直接返回桌面即可）  
+将系统时间的 `自动设置` 开启，打开 `谷歌服务助手` 并点击 `激活` 即可（申请的权限要全部允许；激活后不要点击开始下载，直接返回桌面即可）  
 > Tips：  
 > 1.若提示 `当前设备不支持` ，则说明本方法不适用该设备  
 > 2.若提示 `网络连接异常` ，将 `备份与恢复` 更换成旧版本即可  
@@ -197,7 +202,7 @@ adb shell pm disable-user --user 0 com.google.android.gsf
 
 > 以下操作为禁用GSF并留住FCM功能
 
-通过https://play.google.com/store/apps/details?id=com.google.android.gms 进入 `Google Play商店` 的应用详情页  
+通过 https://play.google.com/store/apps/details?id=com.google.android.gms 进入 `Google Play商店` 的应用详情页  
 > Tips：  
 > 若不知该如何操作，可将链接放到系统自带的 `备忘录` 中并保存，当链接变为蓝色时，点击它即可  
 > （若点击跳转到华为浏览器，打开 `设置` 搜索 `打开链接` - `Google Play 商店` - `未通过验证链接` - `添加` - `全选`）
